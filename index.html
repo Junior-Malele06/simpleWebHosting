@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TUT Student Innovation Showcase: a day of student web, data and AI projects.">
+  <meta name="author" content="Junior">
+  <meta name="keywords" content="TUT, innovation, showcase, students, web, AI">
+  <title>TUT Student Innovation Showcase</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <p class="brand">TUT Innovation Showcase</p>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>See what TUT students have built</h1>
+        <p>One day, three themes, live demos from the Faculty of ICT. Walk in, try the projects, talk to the people who made them.</p>
+        <a class="btn" href="register.html">Register to attend</a>
+      </div>
+      <figure class="hero-figure">
+        <img src="images/showcase.jpg" alt="Students presenting a project on a laptop at the showcase" width="640" height="420">
+        <figcaption>Student teams demonstrate their work in the Main Hall.</figcaption>
+      </figure>
+    </section>
+
+    <section aria-labelledby="cat-heading">
+      <h2 id="cat-heading">Showcase categories</h2>
+      <p>Pick a category to see what it covers.</p>
+      <ul id="category-list" class="card-grid">
+        <!-- Filled by script.js -->
+      </ul>
+      <p id="category-info" class="info-box" aria-live="polite">Select a category above.</p>
+      <noscript><p>Categories: Web Applications, Data and AI, Creative Media.</p></noscript>
+    </section>
+
+    <section aria-labelledby="sched-heading">
+      <h2 id="sched-heading">Project schedule</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Showcase day programme</caption>
+          <thead>
+            <tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Venue</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>08:30</td><td>Registration</td><td>Innovation Hub</td></tr>
+            <tr><td>09:00</td><td>Opening</td><td>Main Hall</td></tr>
+            <tr><td>10:00</td><td>Web Applications</td><td>Lab 1</td></tr>
+            <tr><td>11:00</td><td>Data and AI</td><td>Lab 2</td></tr>
+            <tr><td>13:00</td><td>Project Showcase</td><td>Main Hall</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="media-heading">
+      <h2 id="media-heading">Watch and listen</h2>
+      <div class="media-grid">
+        <figure>
+          <video controls width="480" poster="images/showcase.jpg">
+            <source src="media/showcase.mp4" type="video/mp4">
+            <p>Your browser does not support video. <a href="media/showcase.mp4">Download the showcase video</a>.</p>
+          </video>
+          <figcaption>Highlights from last year's showcase.</figcaption>
+        </figure>
+        <figure>
+          <audio controls>
+            <source src="media/welcome.mp3" type="audio/mpeg">
+            <p>Your browser does not support audio. <a href="media/welcome.mp3">Download the welcome message</a>.</p>
+          </audio>
+          <figcaption>A welcome message from the organisers.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="links-heading">
+      <h2 id="links-heading">Useful links</h2>
+      <ol>
+        <li>Read about the <a href="https://www.tut.ac.za" target="_blank" rel="noopener">Tshwane University of Technology</a>.</li>
+        <li><a href="register.html">Register</a> for a seat.</li>
+        <li>Email <a href="mailto:showcase@example.ac.za">showcase@example.ac.za</a> with questions.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 TUT Student Innovation Showcase. Faculty of ICT, Department of Computer Science.</p>
+  </footer>
+</body>
+</html>
